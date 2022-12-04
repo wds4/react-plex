@@ -1,0 +1,13 @@
+3 Dec 2022
+Plex-Builder12
+Plan: clone create-react-app (which I used for plex originally) and try to add ipfs-desktop functionality; package together as single app
+Modifications similar to what I did to build plex originally:
+Follow this guide: https://www.section.io/engineering-education/desktop-application-with-react/
+Then follow this guide:
+https://blog.bitsrc.io/building-an-electron-app-with-electron-react-boilerplate-c7ef8d010a91
+to learn how to make multiple pages (and maybe learn to package the electron app using electron-builder?).
+Removed web-vitals bc maybe spyware??? and not in second demo.
+
+clone create-react-app to iMac
+npm install
+npm i -D electron electron-is-dev
